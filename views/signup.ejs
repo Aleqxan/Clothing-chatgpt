@@ -1,0 +1,30 @@
+<!-- signup.ejs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dan's Clothing | Sign Up</title>
+  <link rel="stylesheet" href="/styless.css">
+  <style>
+    .center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <h1>Sign Up</h1>
+    <form action="/signup" method="POST">
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br>
+      <!-- Add any additional form fields for sign up -->
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

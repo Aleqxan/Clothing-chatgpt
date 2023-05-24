@@ -1,0 +1,27 @@
+<!-- forgot-password.ejs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dan's Clothing | Reset Password</title>
+  <link rel="stylesheet" href="/styless.css">
+  <style>
+    .center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <h1>Reset Password</h1>
+    <form action="/password-confirmation" method="GET">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <!-- Add any additional form fields for password reset -->
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
